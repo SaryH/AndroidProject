@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_edit_course.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner_course_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course ID" />
+
+
+    <EditText
+        android:id="@+id/editText_new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Title" />
+
+    <EditText
+        android:id="@+id/editText_new_topics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Topics" />
+
+    <EditText
+        android:id="@+id/editText_new_prerequisites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Prerequisites" />
+
+    <Button
+        android:id="@+id/button_submit_edit_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Submit" />
+
+</LinearLayout>
